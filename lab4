@@ -1,0 +1,15 @@
+print("*****Traffic Signal Rule*****")
+Signal= input("Enter the Signal colour:")
+
+if Signal =="red":
+   print("Action: stop")
+
+elif Signal=="yellow":
+     print("Action: wait")
+
+elif Signal=="green":
+     print("Action: Go")
+
+
+else :
+    print("Invalid Signal")
