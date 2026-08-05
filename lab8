@@ -1,0 +1,34 @@
+Text= input ("Enter a paragraph:")
+
+characters= len(Text)
+
+spaces = Text.count(" ")
+
+words = len(Text.split())
+
+vowels= "aeiouAEIOU"
+VOWEL_COUNT = 0
+
+for i in Text:
+    if i in vowels:
+        VOWEL_COUNT +=1
+
+
+
+ #Display results
+print("\n******Text analysis******")
+print("total characters:",characters)
+print("total spaces:",spaces)
+print("total words:",words)
+print("total vowels:",VOWEL_COUNT)
+
+
+# Demonstrating indexing
+if len(Text)>0:
+    print("first characters(Indexing):",Text[0])
+    print("Last character(Indexing):",Text[-1])
+
+
+# Demonstrating slicing
+    print("\nFirst 10 characters (slicing):",Text[:10])
+    print("Last 10 characters (slicing):",Text[-10:])
