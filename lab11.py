@@ -28,4 +28,9 @@ print(Name.find("l"))
 name=input("Enter your name:")
 print(name.count("r"))
 
+name=input("Enter your Name:")
+print(name.center(100))
+
+print(name.ljust(100))
+print(name.rjust(90))
 
