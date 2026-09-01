@@ -11,5 +11,9 @@ print(name.capitalize())
 print(name.swapcase())
 
 name=input("Enter your name:")
-
 print(name.strip())
+
+Name=input("Enter your name:")
+print(Name.lstrip())
+
+
