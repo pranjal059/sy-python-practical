@@ -28,6 +28,10 @@ print(Name.find("l"))
 name=input("Enter your name:")
 print(name.count("r"))
 
+name=input("Enter your name:")
+
+print(name.strip())
+
 Name=input("Enter your name:")
 print(Name.rstrip())
 
