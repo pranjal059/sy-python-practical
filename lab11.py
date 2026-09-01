@@ -22,4 +22,7 @@ print(Name.replace("sanchita" , "ruhii"))
 Name=input("Enter your name:")
 print(Name.split())
 
+Name=input("Enter your Name:")
+print(Name.find("l"))
+
 
