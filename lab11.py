@@ -25,4 +25,7 @@ print(Name.split())
 Name=input("Enter your Name:")
 print(Name.find("l"))
 
+name=input("Enter your name:")
+print(name.count("r"))
+
 
