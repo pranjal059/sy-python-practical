@@ -19,4 +19,7 @@ print(Name.lstrip())
 Name=input("Enter your namr:")
 print(Name.replace("sanchita" , "ruhii"))
 
+Name=input("Enter your name:")
+print(Name.split())
+
 
